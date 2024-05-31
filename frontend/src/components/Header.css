@@ -1,0 +1,19 @@
+/* Header.css */
+.custom-navbar {
+    background-color: #990011; /* Example: Bootstrap primary color */
+  }
+  
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    color: #fff !important;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #f8f9fa !important; /* Example: Bootstrap light color */
+  }
+  
+  .custom-badge {
+    background-color: #ffc107 !important; /* Example: Bootstrap warning color */
+    color: #212529 !important; /* Example: Bootstrap dark color */
+  }
+  

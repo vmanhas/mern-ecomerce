@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Carousel, Image } from 'react-bootstrap';
 import { useGetTopProductsQuery } from '../slices/productsApiSlice';
 import { addCurrency } from '../utils/addCurrency';
-import Loader from './Loader';
-import Message from './Message';
+//import Loader from './Loader';
+//import Message from './Message';
 
 const ProductCarousel = () => {
   const { data: products } = useGetTopProductsQuery();

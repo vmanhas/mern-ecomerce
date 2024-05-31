@@ -8,6 +8,8 @@ import { useLogoutMutation } from '../slices/usersApiSlice';
 import { logout } from '../slices/authSlice';
 import { toast } from 'react-toastify';
 import SearchBox from './SearchBox';
+import { FaBagShopping } from "react-icons/fa6";
+import './Header.css';
 
 const Header = () => {
   const { cartItems } = useSelector(state => state.cart);
@@ -30,15 +32,11 @@ const Header = () => {
 
   return (
     <Navbar
-      bg='dark'
-      variant='dark'
-      expand='md'
-      collapseOnSelect
-      className='fixed-top z-2 '
+      className='custom-navbar'
     >
       <Container>
         <LinkContainer to='/'>
-          <Navbar.Brand>MERN Shop</Navbar.Brand>
+          <Navbar.Brand> <FaBagShopping />   <b> E-commerce</b> </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
