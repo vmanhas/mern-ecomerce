@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-# eCommerce Platform Project - MERN Stack
+
 
 Welcome to the eCommerce Platform Project built using the MERN (MongoDB, Express.js, React, Node.js) Stack. This project provides a robust and full-featured online shopping platform with various functionalities to enhance the user experience.
 
@@ -104,17 +104,6 @@ npm run data:import
 # Destroy data
 npm run data:destroy
 ```
-
-## Sample User Logins
-
-- **Live Customer Logins:**:
-  - John Doe
-    - Email: <john@email.com>
-    - Password: john123
-  - Alice Smith
-    - Email: <alice@email.com>
-    - Password: alice123
-
 Feel free to explore and customize this eCommerce platform for your specific needs. Happy coding🤩!
 
 # Contributing to the eCommerce Platform Project
@@ -187,11 +176,3 @@ We welcome and appreciate contributions from the community to enhance and improv
 Your contribution will be reviewed by the project maintainers. Be prepared to address any feedback or suggestions to ensure the quality and compatibility of your changes.
 
 ## Thank You
-
-Thank you for considering contributing to the eCommerce Platform Project. Your efforts help make this project better for everyone. If you have any questions or need assistance, feel free to reach out through the issue tracker or discussions. Happy coding🤩!
-=======
-# mern-ecomerce
->>>>>>> da5895e7d495bd65f220d7b414d511e27d70894e
-=======
-# mern-ecomerce
->>>>>>> da5895e7d495bd65f220d7b414d511e27d70894e
